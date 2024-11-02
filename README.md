@@ -59,7 +59,7 @@ Now, you can simply run:
 
     ipcheck
 
-Compatibility
+#Compatibility
 
 This script is compatible with:
 
