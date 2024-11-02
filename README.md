@@ -5,26 +5,18 @@ curl: The script uses curl to retrieve IP addresses from online services.
 
 # Installation
 
-    Clone the Repository (if in a Git repository):
-
-    bash
-
-git clone [https://github.com/yourusername/ip.sh.git](https://github.com/zxcvgyhn/ip.sh.git)
-cd ip.sh/ip_sh
+    git clone [https://github.com/yourusername/ip.sh.git](https://github.com/zxcvgyhn/ip.sh.git)
+    cd ipcheck/ip_sh
 
 Make the Script Executable:
 
-bash
-
     chmod +x ip.sh
 
-Usage
+# Usage
 
 To run the script, use:
 
-bash
-
-./ip.sh
+    ./ip.sh
 
 The script will display the IP addresses retrieved from multiple sources and highlight the consensus as follows:
 
@@ -32,11 +24,7 @@ The script will display the IP addresses retrieved from multiple sources and hig
     Yellow: Majority match (50% or more).
     Red: Low consensus (less than 50%).
 
-Adding to .bashrc
-
-To make the script accessible from any directory:
-
-    Move the Script to a Directory in Your PATH:
+Move the Script to a Directory in Your PATH:
 
     mv ip.sh /usr/local/bin/ipcheck
 
@@ -59,7 +47,7 @@ Now, you can simply run:
 
     ipcheck
 
-#Compatibility
+# Compatibility
 
 This script is compatible with:
 
