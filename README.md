@@ -1,9 +1,9 @@
-# ip.sh
+# ipcheck.sh
 
-    Bash: Ensure Bash is installed (the script is compatible with Git Bash on Windows).
-    curl: The script uses curl to retrieve IP addresses from online services.
+Bash: Ensure Bash is installed (the script is compatible with Git Bash on Windows).
+curl: The script uses curl to retrieve IP addresses from online services.
 
-Installation
+# Installation
 
     Clone the Repository (if in a Git repository):
 
@@ -59,7 +59,7 @@ Now, you can simply run:
 
     ipcheck
 
-Compatibility
+#Compatibility
 
 This script is compatible with:
 
