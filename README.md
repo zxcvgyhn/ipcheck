@@ -1,7 +1,6 @@
 # ipcheck.sh
 
-Bash: Ensure Bash is installed (the script is compatible with Git Bash on Windows).
-curl: The script uses curl to retrieve IP addresses from online services.
+ A simple Bash script that retrieves your public IP address from multiple sources and checks for consistency.
 
 # Installation
 
