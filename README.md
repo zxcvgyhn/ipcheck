@@ -9,8 +9,8 @@ Installation
 
     bash
 
-git clone https://github.com/yourusername/ip.sh.git
-cd your-repo-name
+git clone [https://github.com/yourusername/ip.sh.git](https://github.com/zxcvgyhn/ip.sh.git)
+cd ip.sh/ip_sh
 
 Make the Script Executable:
 
