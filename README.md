@@ -3,18 +3,16 @@
 Bash: Ensure Bash is installed (the script is compatible with Git Bash on Windows).
 curl: The script uses curl to retrieve IP addresses from online services.
 
-# Installatio
+# Installation
 
     git clone [https://github.com/yourusername/ip.sh.git](https://github.com/zxcvgyhn/ip.sh.git)
     cd ipcheck/ip_sh
 
 Make the Script Executable:
 
-bash
-
     chmod +x ip.sh
 
-Usage
+# Usage
 
 To run the script, use:
 
