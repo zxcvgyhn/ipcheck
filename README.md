@@ -38,37 +38,30 @@ To make the script accessible from any directory:
 
     Move the Script to a Directory in Your PATH:
 
-    bash
+    mv ip.sh /usr/local/bin/ipcheck
 
-mv ip.sh /usr/local/bin/ipcheck
+
 
 Add an Alias to .bashrc: Open .bashrc in your preferred editor:
 
-bash
 
-nano ~/.bashrc
+    nano ~/.bashrc
 
 Add the following line to create an alias for the script:
 
-bash
-
-alias ipcheck='/usr/local/bin/ipcheck'
+    alias ipcheck='/usr/local/bin/ipcheck'
 
 Source .bashrc to Apply Changes:
-
-bash
 
     source ~/.bashrc
 
 Now, you can simply run:
 
-bash
-
-ipcheck
+    ipcheck
 
 Compatibility
 
 This script is compatible with:
 
-    Bash on Linux and macOS.
-    Git Bash on Windows.
+Bash on Linux and macOS.
+Git Bash on Windows.
