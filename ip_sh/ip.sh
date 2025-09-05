@@ -20,8 +20,6 @@ ip7=$(curl -s http://myexternalip.com/raw)
 echo $ip7 
 ip8=$(curl -s https://api.ipify.org)
 echo $ip8
-ip9=$(curl -s http://ip.tyk.nu)
-echo $ip9
 ip10=$(curl -s http://ipecho.net/plain)
 echo $ip10
 
