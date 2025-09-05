@@ -2,7 +2,7 @@
 
 green() { echo -e "\033[32m$1\033[0m"; }
 yellow() { echo -e "\033[33m$1\033[0m"; }
-red() { echo -e "\033[e1[31m$1\033[0m"; }
+red() { echo -e "\033[31m$1\033[0m"; }
 
 ip1=$(curl -s http://ipinfo.io/ip)
 echo $ip1
