@@ -23,7 +23,7 @@ echo $ip8
 ip10=$(curl -s http://ipecho.net/plain)
 echo $ip10
 
-ips=("$ip1" "$ip2" "$ip3" "$ip4" "$ip5" "$ip6" "$ip7" "$ip8" "$ip9" "$ip10")
+ips=("$ip1" "$ip2" "$ip3" "$ip4" "$ip5" "$ip6" "$ip7" "$ip8" "$ip10")
 
 declare -A cnt
 for ip in "${ips[@]}"; do
